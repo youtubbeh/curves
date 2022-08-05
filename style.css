@@ -1,3 +1,40 @@
+/* make box sizing border box work well */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* reset browser margins and paddings, prevent white space from appearing on the right on skinny screens */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    overflow-x:hidden;
+}
+
+body {
+    margin: 0;
+}
+
+header, section, main, footer {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+header {
+    margin-top: 70px;
+}
+
+footer {
+    margin-bottom: 0px;
+    padding-bottom: 70px;
+}
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
