@@ -115,6 +115,42 @@ h1 {
     color: gray;
 }
 
+main {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.left-text, .left-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.text {
+    max-width: 450px;
+}
+
+.text p {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 32px;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 18px;
+}
+
+.left-img {
+    flex-direction: row-reverse;
+}
+
+.illustration {
+    max-width: 450px;
+}
+
 footer {
     margin-bottom: 0px;
     padding-bottom: 70px;
