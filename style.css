@@ -5,28 +5,47 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-
 /* reset browser margins and paddings, prevent white space from appearing on the right on skinny screens */
 * {
     margin: 0;
     padding: 0;
 }
-
 html,body {
     overflow-x:hidden;
 }
-
 body {
     margin: 0;
 }
-
 header, section, main, footer {
     margin-left: 70px;
     margin-right: 70px;
 }
 
+
 header {
     margin-top: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+nav img {
+    width: 200px;
+    object-fit: contain;
+}
+
+nav button {
+    border-radius: 5em;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    border: hsl(322, 100%, 66%) solid 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
 footer {
