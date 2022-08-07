@@ -217,10 +217,6 @@ h3 {
     margin-bottom: 40px;
 }
 
-
-
-
-
 .bgfooter {
     height: 200px;
     background-image: url(./images/bg-footer-top-desktop.svg);
@@ -229,15 +225,58 @@ h3 {
     background-size: contain;
 }
 
-.main-footer, .social {
-    background-color: hsl(192, 100%, 9%);
-    padding: 0 100px 70px 100px;
+.main-footer {
+    display: flex;
+    justify-content: space-between;
 }
 
-.main-footer img:nth-child(1) {
+.left-footer {
+    max-width: 300px;
+}
+
+.newsletter {
+    max-width: 450px;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.contact img {
+    max-width: 20px;
+    margin-right: 20px;
+    vertical-align: -0.2em;
+}
+
+.main-footer {
+    background-color: hsl(192, 100%, 9%);
+    padding: 100px 100px 60px 100px;
+}
+
+.social {
+    background-color: hsl(192, 100%, 9%);
+    padding: 0px 100px 70px 100px;
+}
+
+img[alt="huddle-white-logo"] {
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(44deg) brightness(104%) contrast(102%);
     width: 200px;
     object-fit: contain;
+    margin-bottom: 20px;
 }
 
 footer p, h4, li {
@@ -253,18 +292,20 @@ h4 {
 ion-icon {
     font-size: 32px;
     color: white;
+    margin-right: 15px;
 }
-
-
-
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding-bottom: 20px;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: white;
 }
 
 .guide {
