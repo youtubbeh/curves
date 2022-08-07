@@ -16,9 +16,14 @@ html,body {
 body {
     margin: 0;
 }
-header, section, main, footer {
-    margin-left: 70px;
-    margin-right: 70px;
+header {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+footer, section {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 h1, h2, h3 {
@@ -91,8 +96,8 @@ h1 {
 
 .stats {
     display: flex;
-    max-width: 750px;
-    margin: 0 auto 100px auto;
+    max-width: 950px;
+    margin: 0 auto 70px auto;
     justify-content: space-between;
 }
 
@@ -115,16 +120,48 @@ h1 {
     color: gray;
 }
 
-main {
-    margin-top: 200px;
-    margin-bottom: 200px;
+.left-img {
+    margin: 40px 0;
+}
+
+.left-text {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.bgspacetop-one {
+    background-image: url(./images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    height: 180px;
+    background-position: bottom;
+}
+
+.bgspacebottom-one {
+    background-image: url(./images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat;
+    height: 180px;
+    background-position: top;
+}
+
+.bgspacetop-two {
+    background-image: url(./images/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+    height: 180px;
+    background-position: bottom;
+}
+
+.bgspacebottom-two {
+    background-image: url(./images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    height: 180px;
+    background-position: top;
 }
 
 .left-text, .left-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .text {
@@ -150,6 +187,15 @@ h2 {
 .illustration {
     max-width: 450px;
 }
+
+.cta {
+    
+}
+
+
+
+
+
 
 footer {
     margin-bottom: 0px;
