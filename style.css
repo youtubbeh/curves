@@ -116,6 +116,10 @@ h1 {
     width: 40px;
 }
 
+.communities, .messages {
+    max-width: 240px;
+}
+
 .bignumber {
     font-size: 80px;
     font-family: 'Open Sans', sans-serif;
@@ -240,7 +244,7 @@ h3 {
 }
 
 .left-footer {
-    max-width: 300px;
+    max-width: 330px;
 }
 
 footer p {
@@ -273,8 +277,8 @@ li {
 }
 
 .social {
-    background-color: hsl(192, 100%, 9%);
     padding: 0px 100px 70px 100px;
+    background-color: hsl(192, 100%, 9%);
 }
 
 img[alt="huddle-white-logo"] {
@@ -347,6 +351,25 @@ h4 {
         padding-bottom: 30px;
     }
 }
+
+/* all layout one column */
+@media all and (max-width: 865px) {
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 130px;
+    }
+
+    .left-img, .left-text {
+        flex-direction: column-reverse;
+    }
+
+    .text h2, .text p {
+        text-align: center;
+    }
+}
+
 /* layout newsletter button to the right on skinny screens */
 @media all and (max-width: 660px) {
     .newsletter button {
@@ -357,8 +380,6 @@ h4 {
         max-width: 280px;
     }
 }
-
-
 
 
 
