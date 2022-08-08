@@ -133,6 +133,7 @@ h1 {
 
 .left-img {
     margin: 40px 0;
+    flex-direction: row-reverse;
 }
 
 .left-text {
@@ -173,6 +174,7 @@ h1 {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    gap: 40px;
 }
 
 .text {
@@ -189,10 +191,6 @@ h2 {
     font-size: 36px;
     color: hsl(192, 100%, 9%);
     margin-bottom: 18px;
-}
-
-.left-img {
-    flex-direction: row-reverse;
 }
 
 .illustration {
@@ -320,6 +318,7 @@ h4 {
     height: 40px;
     width: 280px;
     margin-right: 30px;
+    margin-bottom: 20px;
     border: none;
     border-radius: 5px;
     padding-left: 10px;
@@ -337,6 +336,34 @@ h4 {
     border-radius: 5px;
     font-weight: 600;
 }
+
+/* layout newsletter section of footer on top, mid screens */
+@media all and (max-width: 990px) {
+    .main-footer {
+        flex-direction: column-reverse;
+        gap: 100px;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+/* layout newsletter button to the right on skinny screens */
+@media all and (max-width: 660px) {
+    .newsletter button {
+        display: block;
+        margin-left: auto;
+    }
+    form {
+        max-width: 280px;
+    }
+}
+
+
+
+
+
+
+
 
 .attribution {
     font-size: 11px;
