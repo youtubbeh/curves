@@ -381,9 +381,102 @@ h4 {
     }
 }
 
+@media all and (max-width: 570px) {
+    nav {
+        margin-bottom: 30px;
+    }
 
+    nav img {
+        width: 130px;
+    }
 
+    nav button {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        border-width: 1px;
+    }
 
+    header, section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .hero button, .cta button {
+        width: 220px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    h2, h3 {
+        font-size: 24px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+
+    .illustration {
+        max-width: 300px;
+    }
+
+}
+
+@media all and (max-width: 470px) {
+    .main-footer {
+        padding: 100px 30px 60px 30px;
+    }
+
+    .social {
+        padding: 0px 30px 70px 30px;
+    }
+
+    .newsletter p, form {
+        max-width: 100%;
+    }
+
+    #subscribe {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .bgspacetop-one {
+        background-image: url(./images/bg-section-top-mobile-1.svg);
+    }
+
+    .bgspacebottom-one {
+        background-image: url(./images/bg-section-bottom-mobile-1.svg);
+    }
+
+    .bgspacetop-two {
+        background-image: url(./images/bg-section-top-mobile-2.svg);
+    }
+
+    .bgspacebottom-two {
+        background-image: url(./images/bg-section-bottom-mobile-2.svg);
+    }
+
+    .bgfooter {
+        background-image: url(./images/bg-footer-top-mobile.svg);
+    }
+
+    .newsletter p {
+        max-width: 100%;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    .newsletter input {
+        width: 100%;
+    }
+}
 
 
 .attribution {
